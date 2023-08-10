@@ -56,7 +56,9 @@ You should develop a suite of unit and integration tests to validate the functio
 - Calculating the cumulative fees paid over time by a trader
 - Calculating the daily profit and loss for a trader by asset traded, or trade type
    
-Explain how you would optimise these calculations when the amount of trade data gets large, are there particular 
+Explain how you would optimise these calculations when the amount of trade data gets large, are there particular approaches you would take?
+
+**Bonus:** Each trade will adjust the price of the asset, and cost the trader, this is called "slippage". Write an endpoint to calculate the cost to the trader due to slippage over time.
 
 4. <u>Authentication and Authorization:</u> Explain how you would go about implementing secure authentication and authorization mechanisms for API endpoints to ensure that only authorized users can access and manipulate trade data. Why is this approach better than other approaches?
 
